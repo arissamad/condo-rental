@@ -1,0 +1,116 @@
+body {
+	background: #E8E8E8;
+}
+
+.content {
+	background: white;
+	margin: 20px;
+	padding: 20px 40px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.full-img {
+	width: 100%;
+}
+
+.splash {
+	position: relative;
+	width: 100%;
+}
+
+.splash .text-section {
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	text-align: center;
+	background: rgba(57,68,76,0.9);
+	padding: 20px 20px;
+}
+
+.splash .headline {
+	font-size: 3em;
+	color: white;
+}
+
+.splash .tagline {
+	font-family: Flamenco, "HelveticaNeue-Light", Arial;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: white;
+	font-style: italic;
+	line-height: 1;
+}
+
+.basic-text {
+	color: rgb(85, 80, 82);
+}
+
+.basic-text header {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.basic-text p {
+
+}
+
+.description {	
+	font-size: 1.5em;
+	background: #E8E8E8;
+	color: rgb(85, 80, 82);
+	padding: 10px;
+	line-height: 1.2;
+}
+
+.box {
+	display: inline-block;
+	width: 48%;
+	margin-top: 20px;
+}
+
+.box.left {
+}
+
+.box.right {
+	float: right;
+}
+
+.box img {
+	width: 100%;
+}
+
+/** For smaller screens **/
+@media not screen and (min-width: 40.5em) {
+	.content {
+		padding: 20px;
+	}
+
+	.splash .headline {
+		font-size: 2em;
+	}
+
+	.splash .tagline {
+		font-size: 1.4em;
+	}
+
+	.description {	
+		font-size: 1.3em;
+	}
+
+}
+
+@media not screen and (min-width: 60.5em) {
+
+	.box {
+		width: 100%;
+	}
+
+	.box.right {
+		float: inherit;
+	}
+}
