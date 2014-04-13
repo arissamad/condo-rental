@@ -74,6 +74,7 @@ h1 {
 }
 
 .box.left {
+	float: left;
 }
 
 .box.right {
@@ -82,6 +83,10 @@ h1 {
 
 .box img {
 	width: 100%;
+}
+
+.clear {
+	clear: both;
 }
 
 /** For smaller screens **/
