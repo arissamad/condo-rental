@@ -119,3 +119,24 @@ h1 {
 		float: inherit;
 	}
 }
+
+/** For tiny  screens, i.e. iphone **/
+@media not screen and (min-width: 35.5em) {
+	.content {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.splash .headline {
+		font-size: 1em;
+	}
+	
+	.splash .text-section {
+		top: 0px;
+		padding: 5px 5px;
+	}
+	
+	.basic-text {
+		padding: 0px 10px;
+	}
+}
