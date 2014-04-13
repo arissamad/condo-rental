@@ -25,9 +25,6 @@ public class HerokuStarter {
 		System.out.println("Starting condo-rental... ");
 		System.out.println("Mode: " + Mode.get().name());
 
-    	// Initialize the Config environment variables
-    	InitConfig.init();
-    	
     	CacheFilter cacheFilter = new CacheFilter("/images/", "jquery-");
     	FilterEngine.addFilter(cacheFilter);
     	
